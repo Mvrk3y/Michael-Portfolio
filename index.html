@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="icons/noun-portfolio-7934921.png">
+  <title>MICHAEL MAPOSA|PORT VIEW</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <div class="container"> 
+    <a class="navbar-brand" href="index.html">Portfolio</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+        <li class="nav-item"><a class="nav-link" href="#about">About Me</a></li>
+        <li class="nav-item"><a class="nav-link" href="#skills">Skills & Certificates</a></li>
+        <li class="nav-item"><a class="nav-link" href="#contact">Contact Me</a></li>
+        <li class="nav-item">
+          <button id="darkModeToggle" class="btn btn-outline-dark btn-sm ms-2">🌙</button>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- Hero -->
+<section class="hero text-center d-flex flex-column align-items-center justify-content-center">
+  <div class="profile-pic-glow mb-3">
+    <img src="images/blue.jpeg" alt="Michael Maposa Profile Picture" class="profile-pic" width="120" height="120">
+  </div>
+  <h1 class="display-5 fw-bold mb-2">Hey, I'm <strong>MICHAEL MAPOSA</strong></h1>
+  <p class="lead mb-3">Hands-On Junior Developer<br>Turning Concepts into Code, Ideas into Interface</p>
+  <div class="hero-links mb-2">
+    <a href="https://github.com/Mvrk3y" class="btn btn-dark btn-sm me-2 d-inline-flex align-items-center" target="_blank">
+      <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" class="bi bi-github me-1" viewBox="0 0 16 16" aria-hidden="true">
+        <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38
+        0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52
+        -.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2
+        -3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82a7.65
+        7.65 0 0 1 2-.27c.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08
+        2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01
+        1.93-.01 2.19 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z"/>
+      </svg>
+      GitHub
+    </a>
+    <a href="https://www.linkedin.com/in/michael-maposa-b98a64372?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" class="btn btn-primary btn-sm d-inline-flex align-items-center" target="_blank">
+      <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" class="bi bi-linkedin me-1" viewBox="0 0 16 16" aria-hidden="true">
+        <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.521-1.248-1.342-1.248-.822 0-1.358.54-1.358 1.248 0 .694.521 1.248 1.327 1.248h.015zm4.908 8.212h2.4V9.359c0-.215.016-.43.08-.586.175-.43.573-.877 1.242-.877.876 0 1.226.662 1.226 1.634v4.864h2.4V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.015a5.6 5.6 0 0 1 .015-.025V6.169h-2.4c.03.677 0 7.225 0 7.225z"/>
+      </svg>
+      LinkedIn
+    </a>
+  </div>
+</section>
+
+<!-- Projects -->
+<section id="projects" class="container my-5 reveal">
+  <h2 class="section-title text-center mb-4">Projects</h2>
+  <div class="row justify-content-center">
+    <!-- Project Card Example -->
+    <div class="col-md-4 mb-4">
+      <div class="card shadow-sm h-100 border-0 project-card">
+        <img src="images/Screenshot 2025-07-02 174415.png" class="card-img-top" alt="Project 1">
+        <div class="card-body">
+          <h5 class="card-title">Botswana-Trivia-Game Project</h5>
+          <p class="card-text">A very difficult game site i've build,through the use of html,css and js.Thanks to the help of Youtube lessons and Ai i was able to learn how to also include audio in my project.</p>
+          <a href="https://github.com/Mvrk3y/BTG" class="btn btn-outline-primary btn-sm" target="_blank">View on GitHub</a>
+          <a href="https://mvrk3y.github.io/BTG/" class="btn btn-success btn-sm ms-2" target="_blank">Live Demo</a>
+        </div>
+      </div>
+    </div>
+    <!-- Add more project cards as needed -->
+    <div class="col-md-4 mb-4">
+      <div class="card shadow-sm h-100 border-0 project-card">
+        <img src="images/engage.png" class="card-img-top" alt="Project 2">
+        <div class="card-body">
+          <h5 class="card-title">Project Two</h5>
+          <p class="card-text">EngageXpress is a simple front-page website I built to promote a client’s social media boosting services for TikTok, Instagram, YouTube, and Facebook. It includes service details, pricing, payment options (PayPal, OrangeMoney, MyZaka), images, and a WhatsApp contact button.</p>
+          <a href="https://github.com/Mvrk3y/EngageXpress" class="btn btn-outline-primary btn-sm" target="_blank">View on GitHub</a>
+          <a href="https://mvrk3y.github.io/EngageXpress/" class="btn btn-success btn-sm ms-2" target="_blank">Live Demo</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- About -->
+<section id="about" class="container my-5 reveal">
+  <div class="row align-items-center">
+    <div class="col-md-7">
+      <h2 class="section-title mb-3">About Me</h2>
+      <p>
+        I'm a self-taught developer passionate about building web applications and solving real-world problems with code. My journey started with online courses and hands-on projects, and I love learning new technologies and collaborating with others.
+      </p>
+      <ul>
+        <li>🌱 Currently learning Full stack dev</li>
+        <li>🤝 Open to freelance and collaboration</li>
+      </ul>
+    </div>
+    <div class="col-md-5 text-center">
+      <img src="images/chik.jpeg" alt="Michael Maposa" class="about-pic rounded shadow" width="180" height="180">
+    </div>
+  </div>
+</section>
+
+<!-- Skills & Certificates -->
+<section id="skills" class="container my-5 reveal">
+  <h2 class="section-title mb-3">Skills & Certificates</h2>
+  <div class="row">
+    <div class="col-md-6 mb-3">
+      <h5>Technical Skills</h5>
+      <div class="mb-3">
+        <label class="fw-bold">HTML</label>
+        <div class="progress mb-2">
+          <div class="progress-bar bg-success" role="progressbar" style="width: 50%">50%</div>
+        </div>
+        <label class="fw-bold">CSS</label>
+        <div class="progress mb-2">
+          <div class="progress-bar bg-primary" role="progressbar" style="width: 35%">35%</div>
+        </div>
+        <label class="fw-bold">JavaScript</label>
+        <div class="progress mb-2">
+          <div class="progress-bar bg-warning text-dark" role="progressbar" style="width: 15%">25%</div>
+        </div>
+        <label class="fw-bold">Bootstrap</label>
+        <div class="progress mb-2">
+          <div class="progress-bar bg-info text-dark" role="progressbar" style="width: 40%">40%</div>
+        </div>
+        <label class="fw-bold">Git</label>
+        <div class="progress mb-2">
+          <div class="progress-bar bg-dark" role="progressbar" style="width: 25%">25%</div>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-6 mb-3">
+      <h5>Certificates</h5>
+      <ul class="list-unstyled mb-0">
+        <li>✅ Mimo:HTML AND CSS for Web Developers</li>
+        <li>✅ ORANGE-DIGITAL-CENTER:BIGNNER TO WEB DEVELOPMENT</li>
+        <li>✅ ORANGE-DIGITAL-CENTER:INTERMEDIATE TO WEB DEVELOPMENT</li>
+      </ul>
+    </div>
+  </div>
+  <!-- Certificate Showcase -->
+<section id="certificates" class="container my-5 reveal">
+  <h2 class="section-title mb-4 text-center">Certificate Showcase</h2>
+  <div class="row justify-content-center g-4">
+    <!-- Certificate Card Example -->
+    <div class="col-sm-6 col-md-4 col-lg-3">
+      <div class="card border-0 shadow-sm certificate-card h-100">
+        <img src="images/html.jpeg" class="card-img-top" alt="Certificate 1">
+        <div class="card-body text-center">
+          <h6 class="card-title mb-1">HTML </h6>
+          <p class="card-text small text-muted">Mimo</p>
+        </div>
+      </div>
+    </div>
+    <!-- Duplicate and update the src/title/text for more certificates -->
+    <div class="col-sm-6 col-md-4 col-lg-3">
+      <div class="card border-0 shadow-sm certificate-card h-100">
+        <img src="images/css.jpeg" class="card-img-top" alt="Certificate 2">
+        <div class="card-body text-center">
+          <h6 class="card-title mb-1">CSS</h6>
+          <p class="card-text small text-muted">Mimo</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-6 col-md-4 col-lg-3">
+      <div class="card border-0 shadow-sm certificate-card h-100">
+        <img src="images/odc.jpeg" class="card-img-top" alt="Certificate 3">
+        <div class="card-body text-center">
+          <h6 class="card-title mb-1">Biginner to Web Development</h6>
+          <p class="card-text small text-muted">Orange Digital Center</p>
+        </div>
+      </div>
+    </div>
+    <!-- Add more certificate cards as needed -->
+  </div>
+</section>
+</section>
+
+<!-- Contact -->
+<section id="contact" class="container my-5 reveal">
+  <h2 class="section-title mb-3 text-center">Contact Me</h2>
+  <div class="row justify-content-center">
+    <div class="col-md-7">
+      <div class="card shadow-sm border-0 p-4">
+        <form action="https://formspree.io/f/xjkrzynk" method="POST">
+          <div class="mb-3">
+            <label for="name" class="form-label">Your Name</label>
+            <input type="text" class="form-control" id="name" name="name" placeholder="Enter your name" required>
+          </div>
+          <div class="mb-3">
+            <label for="email" class="form-label">Your Email</label>
+            <input type="email" class="form-control" id="email" name="email" placeholder="Enter your email" required>
+          </div>
+          <div class="mb-3">
+            <label for="message" class="form-label">Message</label>
+            <textarea class="form-control" id="message" name="message" rows="4" placeholder="Type your message" required></textarea>
+          </div>
+          <input type="text" name="_gotcha" style="display:none">
+          <button type="submit" class="btn btn-success px-4">Send Message</button>
+        </form>
+        <div class="mt-4 text-center">
+          <span class="me-2"><strong>Email:</strong> michaelmaposa19@gmail.com</span>
+          <a href="https://github.com/Mvrk3y" class="text-dark me-2" target="_blank" aria-label="GitHub">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-github" viewBox="0 0 16 16">
+              <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38
+              0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52
+              -.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2
+              -3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82a7.65
+              7.65 0 0 1 2-.27c.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08
+              2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01
+              1.93-.01 2.19 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z"/>
+            </svg>
+          </a>
+          <a href="https://www.linkedin.com/in/michael-maposa-b98a64372?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" class="text-primary" target="_blank" aria-label="LinkedIn">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-linkedin" viewBox="0 0 16 16">
+              <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.521-1.248-1.342-1.248-.822 0-1.358.54-1.358 1.248 0 .694.521 1.248 1.327 1.248h.015zm4.908 8.212h2.4V9.359c0-.215.016-.43.08-.586.175-.43.573-.877 1.242-.877.876 0 1.226.662 1.226 1.634v4.864h2.4V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.015a5.6 5.6 0 0 1 .015-.025V6.169h-2.4c.03.677 0 7.225 0 7.225z"/>
+            </svg>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+
+
+<!-- WhatsApp Float Button -->
+<a href="https://wa.me/2678680396" class="whatsapp-float" target="_blank" aria-label="WhatsApp">
+  <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/whatsapp.svg" alt="WhatsApp" width="40" height="40">
+</a>
+
+<!-- Scroll to Top Button -->
+<button type="button" class="btn btn-success btn-floating btn-lg" id="btn-back-to-top">
+  ↑
+</button>
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
