@@ -23,7 +23,7 @@ function decryptEffect() {
 
 window.addEventListener('DOMContentLoaded', decryptEffect);
 
-// Scroll to Top Button
+
 const btn = document.getElementById('btn-back-to-top');
 window.onscroll = function () {
   btn.style.display = (document.body.scrollTop > 200 || document.documentElement.scrollTop > 200) ? "block" : "none";
@@ -32,7 +32,7 @@ btn.onclick = function () {
   window.scrollTo({ top: 0, behavior: 'smooth' });
 };
 
-// Section reveal on scroll
+
 const reveals = document.querySelectorAll('.reveal');
 function revealOnScroll() {
   for (const el of reveals) {
@@ -46,7 +46,7 @@ function revealOnScroll() {
 window.addEventListener('scroll', revealOnScroll);
 window.addEventListener('DOMContentLoaded', revealOnScroll);
 
-// Dark mode toggle
+
 document.getElementById('darkModeToggle').onclick = function () {
   document.body.classList.toggle('dark-mode');
 };
